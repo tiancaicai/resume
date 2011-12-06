@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[left=1.5in,right=1.5in,top=1in,bottom=1in]{geometry}
+
+\usepackage[svgnames]{xcolor}% provides colors for text
+\makeatletter% since there's an at-sign (@) in the command name
+\renewcommand{\@maketitle}{%
+  \begin{center}
+    \parskip\baselineskip% skip a line between paragraphs in the title block
+    \parindent=0pt% don't indent paragraphs in the title block
+    \textcolor{black}{\LARGE\bf\@title}\par
+    \textbf{\@author}\par
+    %\@date% remove the percent sign at the beginning of this line if you want the date printed
+  \end{center}
+}
+\makeatother% resets the meaning of the at-sign (@)
+
+\title{Personal Statement}
+\author{Jia Sun\\jias@sfu.ca\\School of Computing Science\\Simon Fraser University}
+\begin{document}
+
+\maketitle% prints the title block
+
+As an undergraduate senior from Simon Fraser University (SFU) majoring in Computing Science, I seek to apply for a M.Sc. degree program at University of Toronto, with the interest at Visualization, Computer Graphics and Computer Vision. \\
+
+
+When asked about what’s the goal of life, I always said to become someone useful. To be more specific, it is to be a person who can improve the world, even though just a tiny little bit. Being proficient in a particular field is the first step to fulfill the goal, and that’s the primary reason that I eager to pursue a higher degree after my undergraduate studies. However I had two concerns at first, one is the worry about the unknown graduate school life; the other one is the anxiety about what I research may turn out to be not that valuable. With these concerns, I attended last year’s Grace Hopper Conference for Women in Computing Science, hoping to find some solution. The Grace Hopper is not a traditional academic conference, but for the sake of gathering female computer scientists all over the world to share experience and feelings about their life of research. I was so inspired by the master and PhD students there. Everyone I met was very proud of what she was doing. By pushing the science and technology forward, they contribute enlarging human knowledge pool, as well as enjoying working for their own interest. They told me that graduate school is a place of experiment, so the first try is not always that successful. In the trials and errors, everyone will dig out something valuable eventually. The premature worry about success of research is really unnecessary. All the comforting and enlightening words helped me made up my mind to attend the graduate school.  \\
+
+
+After decided to go to grad school, I didn’t determine which field that I’d like to devote my passion to. I picked some directions that look interest to me, took some courses, some of them even are graduate courses, in which I was treated as a normal graduate student.\\
+
+
+The first is the visualization course, which at last turns out to be where my interest lies. It attracts me so much because it’s terrific combination of innovation, technology and arts. A clear illustration of massive data gives me the great sense of accomplishment. For the final project in the course, our group designed a software named “Movie Tracker”, which is a research tool to visualize the movie social network in Flixster.com for researchers in the data mining lab. The main barrier is the large chunk of data of the users and their friendship. Two-layer hierarchical views are designed to present the social network formed of ten thousands of users, one is community view and the other is individual user view. We used K-means to cluster the users into communities. The community view only shows the network relations among communities, while user view only displays the relations between users. There are some custom filters to help the researchers focus on relatively important content, e.g. filtering based on the number of users in a community, based on the number of movies users watched etc.. I did another visualization project for UCOSP (Undergraduate Capstone Open Source Projects across Canada), worked with other students from University of Waterloo , University of British Columbia, and University of Alberta University. Mine part is also visualizing social network. But this time I focused on the color to convey more information and the user-interaction with the graph. \\
+
+
+With the experience of the two visualization projects above, I was invited to be the research assistant for Visualizing “Nursing Home Fall Detection” led by Greg Mori in Vision and Media lab and Shahram Payandeh from the School of Engineering Science in SFU. The other researcher had already developed a vision algorithm to filter out the seniors’ fall clips from the surveillance videos. My task was to visualize these clips in order to let the user clearly see the falls with irrelevant clips wiped off. Every frame has a corresponding score, with higher value indicating higher possibility of falls contained in the frame. I came up with three methods. First is using scores to change the base color of each frame. So when the videos turns red, the user should be alerted with patient falls. The second one is a fast forward method, which will skip the non-fall video clips in order to highlight the fall clips. My application will recommend a threshold of scores for fall clips, but a slider for user to change the threshold the vision algorithm is designed because there exist some false positive and false negative due to the imperfect of the vision algorithm.The third method is to integrate different patient falls into a single scene. The bounding boxes for clips in different videos are highlighted with different colors to help user distinguish clips from different videos. Though it’s a visualization project, I also developed the interest of computer vision. The human activity and group activity recognition that used in filtering out the fall clips is fascinating.  \\
+
+
+Besides visualization, I also took graduate courses for data mining and multicore system. The K-means method for the visualization project is learnt from the data mining course. And the hierarchical view is also inspired by my data mining project of the new algorithm “Trust-Based Community Discovery for Hierarchical Collaborative Filtering”. In the multicore system course, I read three or more papers a week. “Performance Comparison of MPI Workloads on HPC clusters versus Amazon EC2” is the paper that worked with my partner. The experience of doing research and using the clusters will benefit me for the graduate studies.  \\
+
+
+By taking those courses, I not only found what interests me, but also got to know how the graduate life is like. During my Co-op at Research Computing Group at SFU, I worked closely with the graduate labs, helped them solve the technical problems, as well as attended the lab meetings regularly. To me, graduate school life is not “unknown” any more. I’ve experience the failure of researches, had tasted the joy of success. No guarantee of winning the game every time is the challenging and charming part of research. In a summary, I’d like to apply for the Master’s degree in Visualization, Computer Graphics and Computer Vision in University of Toronto. I believe it’s an ideal place for me to fulfill my curiosity and help realise my goal. I hope you can grant me the honor to continue graduate study at University of Toronto.  \\
+
+
+\end{document}
