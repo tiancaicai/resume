@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.5)  28 NOV 2011 23:32
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.5)  13 DEC 2011 08:56
 entering extended mode
  %&-line parsing enabled.
 **jias_resume.tex
@@ -65,13 +65,13 @@ Here is how much of TeX's memory you used:
  3617 multiletter control sequences out of 15000+50000
  4906 words of font info for 18 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 29i,4n,21p,192b,98s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,4n,21p,231b,98s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive
 /fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
 sfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
 sl10.pfb>
-Output written on jias_resume.pdf (1 page, 67821 bytes).
+Output written on jias_resume.pdf (1 page, 67856 bytes).
 PDF statistics:
  22 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
