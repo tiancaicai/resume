@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage[left=1.5in,right=1.5in,top=1in,bottom=1in]{geometry}
+
+\usepackage[svgnames]{xcolor}% provides colors for text
+\makeatletter% since there's an at-sign (@) in the command name
+\renewcommand{\@maketitle}{%
+  \begin{center}
+    \parskip\baselineskip% skip a line between paragraphs in the title block
+    \parindent=0pt% don't indent paragraphs in the title block
+    \textcolor{black}{\LARGE\bf\@title}\par
+    \textbf{\@author}\par
+    %\@date% remove the percent sign at the beginning of this line if you want the date printed
+  \end{center}
+}
+\makeatother% resets the meaning of the at-sign (@)
+
+\title{Personal Statement}
+\author{Jia Sun\\jias@sfu.ca\\School of Computing Science\\Simon Fraser University}
+\begin{document}
+
+\maketitle% prints the title block
+
+{\bf Applicant's Name: } Jia Sun\\
+
+{\bf Long Term Degree Objective: } Applying for thesis-based Master degree at Purdue University, with the interest in Visualization, Computer Graphics and Computer Vision. During the Master graduate studies, I'll find out if I'm suitable for research, then decide whether pursing a PhD degree. That's reason I chose thesis-based degree.  \\
+
+
+{\bf Research Experience: } I picked some directions attracts me, then took relevant courses. Some of them are even graduate courses, in which I was treated as a graduate student. 
+
+The first is visualization, that at last turns out to be where my interest lies. For the final project in the course, our group designed a software named ``Movie Tracker'', that is a research tool to visualize the movie social network in Flixster.com for researchers in the SFU Data Mining Lab. Two-layer hierarchical views were designed to present the social network formed of ten thousands of users: one was community view and the other was individual user view. We used K-means to cluster users into communities. Besides this, I did another visualization project for UCOSP (Undergraduate Capstone Open Source Projects across Canada) for visualizing social network with focusing on color to convey more information and user-interaction with the graph.
+
+With the experience of the two visualization projects above, I was invited to be the research assistant for Visualizing ``Nursing Home Fall Detection'' led by Professor Greg Mori in Vision and Media Lab and Professor Shahram Payandeh from the School of Engineering Science in SFU. Another PhD student had already developed a vision algorithm to filter out seniors' fall clips from surveillance videos. My task was to visualize these clips to let the user clearly see the falls, with irrelevant clips wiped off. I came up with three methods to visualize it: color, fast-forwarding and integrate different falls into a single scene. 
+
+Besides visualization, I also took graduate courses for data mining and multicore system. The K-means method for the visualization project is learnt from the data mining course, and the hierarchical view is also inspired by my data mining project of the new algorithm ``Trust-Based Community Discovery for Hierarchical Collaborative Filtering''. In the multicore system course, I read three or more papers a week. ``Performance Comparison of MPI Workloads on HPC clusters versus Amazon EC2'' is the paper that I worked with my partner. The experience of doing research and using the HPC clusters will benefit me for the graduate studies.  \\
+
+{\bf Future Research Interests: } Visualization, Computer Graphics and Computer Vision. Though I worked as a visualization RA for the vision lab, I also developed the interest in Computer Vision.\\ 
+
+
+{\bf Other Comments: } By taking those courses, I not only found what interests me, but also had a chance to know how graduate life looks like. During my internship at Research Computing Group at SFU, I worked closely with graduate labs, helped them solve technical problems, as well as attended the lab meetings regularly. I've experience the failure of researches, had tasted the joy of success. No guarantee of winning the game every time is the challenging and charming part of research. 
+
+
+\end{document}

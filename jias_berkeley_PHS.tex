@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage[left=1.5in,right=1.5in,top=1in,bottom=1in]{geometry}
+
+\usepackage[svgnames]{xcolor}% provides colors for text
+\makeatletter% since there's an at-sign (@) in the command name
+\renewcommand{\@maketitle}{%
+  \begin{center}
+    \parskip\baselineskip% skip a line between paragraphs in the title block
+    \parindent=0pt% don't indent paragraphs in the title block
+    \textcolor{black}{\LARGE\bf\@title}\par
+    \textbf{\@author}\par
+    %\@date% remove the percent sign at the beginning of this line if you want the date printed
+  \end{center}
+}
+\makeatother% resets the meaning of the at-sign (@)
+
+\title{Personal History Statement}
+\author{Jia Sun\\jias@sfu.ca\\School of Computing Science\\Simon Fraser University}
+\begin{document}
+
+\maketitle% prints the title block
+
+My mother is always my idol. She is a Medicine PhD. It is not rare to have a PhD mother, but my mother got her PhD degree at the age of 42. When I graduated from high school, my mother graduated from the College of Medicine, Zhejiang University, China. She is a nurse and she got admitted to graduate school for a Master degree at the age of 37. It is really a big news at that time because nobody will imagine a nurse will apply for a Medicine graduate school and got admitted. But my mother finished her master study and continued to PhD. This greatly inspired me. Everyone can have chance to purse higher eduction as long as he wants to.  \\
+
+My university experience is really unique. I attended a Dual Degree Program. I spent my first two years at Zhejiang University, China, then the last three years at Simon Fraser University, Canada. The first two years at China I learnt fundamental university courses, prepared a sound foundation for my advanced studies. Also I'm fully involved into university clubs and association, worked as a president secretory to organize club conference, prepare a grant show and coordinate with the club president with resources. Then I came to Canada in 2009, started my Canadian university life. I focused more on study, but also attend a club of Women in Computing Science. We organized workshops and social nights. I attended the Grace Hopper Conference in US with other girls and met all the female scientists all over the world. Females are minority in CS, however the club and the conference helped me realize that it is not something bad, it is an opportunity. I will get more focus, and this pressure will help me do better in my studies and works. \\
+
+
+I found my first internship April 2011, a network administrator for the Faculty of Applied Science at Simon Fraser University. At first my supervisor only allowed me to do simple work and gave me limited privileges. Till now, the IT services people in our university are working on a printer issue, and among all the full-time administrators, I'm the first one who found out the solution and sent it to the mailing list. I gained much experience as well as trust. \\
+
+As explained in Personal Statement, I have the will and the ability to attend graduate school. And my uncommon experience tells me that hard working will pay back to me sometime. \\
+
+
+
+\end{document}
